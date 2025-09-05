@@ -8,6 +8,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Ошибка ввода:", err)
+		return
 	}
 
 	length := len(input)
