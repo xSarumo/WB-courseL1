@@ -14,7 +14,7 @@ func binSearch(arr []int, hit int) int {
 			right = middle
 		}
 	}
-	if left != hit {
+	if arr[left] != hit {
 		return -1
 	}
 
